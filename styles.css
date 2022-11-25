@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+#red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    
+}
+
+.squares {
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-right: 2px;
+    cursor: pointer;
+    
+}
+
+.clear {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.clear:hover {
+    background-color: rgb(238, 8, 8);
+}
