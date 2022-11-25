@@ -1,9 +1,17 @@
 body {
     text-align: center;
+    background-image: url(https://parispeaceforum.org/wp-content/uploads/2021/10/NET-ZERO-SPACE-INITIATIVE-1.png);
+    background-position-x: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+.main-head{
+    font-family: 'Alfa Slab One', cursive;
+    color: #59C1BD;
 }
 .main-container {
     display: flex;
     justify-content: center;
+    background-color: ;
 }
 
 #red {
@@ -41,5 +49,16 @@ body {
 }
 
 .clear:hover {
-    background-color: rgb(238, 8, 8);
+    background-color: #81C6E8;
+    cursor: pointer;
+}
+@font-face {
+    font-family: pacifico;
+    src: url("pacifico.ttf");
+}
+.footer {
+    position: absolute;
+    bottom: 10px;
+    font-family: pacifico;
+    color: #7DE5ED;
 }

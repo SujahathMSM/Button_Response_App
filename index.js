@@ -19,5 +19,13 @@ squares.forEach(square => {
     }
 })
 
-function clearGame() {
-    squares.forEach(square => square.value = "")
+let clearGame = () => {
+    timesClicked.blue = 0
+    timesClicked.red = 0
+    timesClicked.green = 0
+    squares.forEach(square => 
+        square.textContent = 0)
+}
+
+let gameClearBtn = document.getElementById('clear');
+gameClearBtn.onclick = () => clearGame()
